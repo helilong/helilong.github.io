@@ -1,0 +1,77 @@
+* { margin: 0; padding: 0 }
+
+.topsp{
+	color: gold;
+	font-size: 25px;
+}
+
+
+        var sf = new Snowflakes({
+          color: "#ffffff",
+          count: 75,
+          minOpacity: 0.2,
+          maxOpacity: 0.6
+        });
+
+
+body { font: 12px "宋体", Arial, Helvetica, sans-serif; color: #756F71 }
+img { border: 0; display: block }
+ul { list-style: none; }
+a:link, a:visited {text-decoration: none; color: #333;}
+/*去掉a标签的样式*/
+header { width: 1000px; margin: auto; height: 80px; position: relative; overflow: hidden }
+#logo a { width: 260px; height: 60px; margin: 10px 0 0 0; position: absolute;}
+nav { float: right; width: 100%; margin: 30px 0 0 0; text-align: right }
+nav a { position: relative; display: inline-block; font-size: 18px; font-family: "微软雅黑", Arial, Helvetica, sans-serif; }
+nav a:hover { text-decoration: none }
+.top a { margin: 0 5px; padding: 0 8px; }
+/*显示图片中间*/
+.img{background: url(../images/banner_top.jpg); top center; height: 265px; overflow: hidden }
+.sect{ width:1000px; margin:auto; overflow:hidden}
+.ul { width: 350px; line-height: 26px; margin: 60px 0 0 20px; float: left; font-size: 14px; }
+.ul>p{
+	display: none;
+}
+#div_zhong{width: 1000px; margin: 20px auto; overflow: hidden }
+
+h2.h2_top { font: 18px , Arial, Helvetica, sans-serif; color: #444; font-weight: bold; background: url(../images/h_line.jpg)lrepeat-x 20px center; }
+#top_span {font-size: 30px; color: #FE5187 }
+#top_span1 {font-size: 30px; background: #fff; width: 5000px }
+#top_span2 { font-size: 1;}
+
+.bloglist { width: 740px; overflow: hidden; background: url(../images/r_line.jpg) repeat-y right; }
+.bloglist h3 { margin: 20px 0 10px 0; color: #333 }
+.bloglist figure { float: left; width: 183px; }
+.bloglist figure img { padding: 4px; border: #f4f2f2 1px solid; width: 175px; }
+.bloglist ul { float: left; width: 520px; margin: 10px 0px 0 15px; line-height: 20px; }
+
+.dateview { width: 695px; overflow: hidden; clear: both; margin: 10px 0 0 0; display: inline-block; background: #f6f6f6 url(images/time.jpg) 15px center no-repeat; line-height: 26px; height: 26px; color: #838383; padding-left: 25px }
+.dateview span { margin: 0 10px; }
+.dateview span a { color: #099B43; }
+a.readmore { background: #fd8a61; color: #fff; padding: 5px 10px; float: right; margin: 20px 0 0 0 }
+
+.avatar { float: right; margin: 40px; width: 130px; height: 130px; border-radius: 100%; overflow: hidden; border: #FFF 4px solid }
+.avatar a { display: block; padding-top: 97px; width: 160px; background:url(../images/photos.jpg) no-repeat; background-size: 130px 130px }
+.avatar a span { display: block; margin-top: 63px; padding-top: 8px; width: 130px; height: 55px; text-align: center; line-height: 20px; color: #fff; background: rgba(0, 0, 0, .5); -webkit-transition: margin-top .2s ease-in-out; -moz-transition: margin-top .2s ease-in-out; -o-transition: margin-top .2s ease-in-out; transition: margin-top .2s ease-in-out; }
+.avatar a:hover span { display: block; margin-top: 0; }
+
+aside { width: 250px; }
+.weather {background:url(../images/weather_bg.jpg) no-repeat; height: 88px; margin: 20px 0;padding: 20px 0 0 75px; }
+.left { float: left; }
+.right { float: right; }
+.news h3 { font-size: 14px; background: url(../images/r_title_bg.jpg) repeat-x center }
+.news h3 p { background: #fff; width: 70px }
+.news h3 span { color: #65b020 }
+.news h3.ph span { color: #37ccca; }
+.news h3.links span { color: #F17B6B; }
+.news ul { margin-bottom: 20px }
+.news ul li a:hover { text-decoration: underline }
+.rank li { height: 25px; line-height: 25px; clear: both; padding-left: 5px; overflow: hidden; padding-left: 15px; background: url(../images/li.jpg) no-repeat left center; }
+.rank { margin: 10px 0 }
+.rank li a { color: #333; }
+.paih { background: url(images/ph.jpg) no-repeat left 8px; margin: 10px 0 }
+.paih li { line-height: 30px; height: 30px; overflow: hidden; padding-left: 24px; border-bottom: #CCC dotted 1px }
+.website { margin: 10px 0; background: #F3F3F3; border-radius: 50%; text-align: center; }
+.website li { line-height: 26px; text-shadow: #fff 1px 1px 1px; height: 26px; }
+.weixin {background: url(../images/weixin.jpg) no-repeat; width: 100%; display: inline-block; height: 274px; overflow: hidden; margin: 10px 0; clear: both }
+footer { text-align: center; line-height: 40px; border-top: #E8E8E8 1px solid ; width:1000px; margin:auto}
